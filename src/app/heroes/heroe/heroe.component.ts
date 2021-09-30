@@ -21,5 +21,8 @@ obtenerNombre (): string {
 cambiarNombre (): void {
     this.nombre='Spiderman'; 
 }
+cambiarEdad (): void {
+    this.edad=29;
+}
 
 }
