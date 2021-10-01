@@ -4,13 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { contadorComponent } from './contador/contador.component';
 import { heroeComponent } from './heroes/heroe/heroe.component';
+import { ListadoComponent } from './heroes/listado/listado.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     contadorComponent,
-    heroeComponent
+    heroeComponent,
+    ListadoComponent
     
   ],
   imports: [
